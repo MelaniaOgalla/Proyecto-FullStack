@@ -1,0 +1,43 @@
+
+
+h1{
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    position: center;
+    text-align: center;
+    background-size: 100%;
+    background-color: #fafafa;
+    width: 100%;
+    height: 100%;
+}
+
+.boton-flex{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.boton{
+    border-color: #6dc092;
+    color: #6dc092;
+
+}
+
+.btn-outline-primary:hover {
+    background-color: #6dc092;
+    border-color: #057545;
+
+}
+
+.responsive{
+    max-width: 100%;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 100px;
+}
